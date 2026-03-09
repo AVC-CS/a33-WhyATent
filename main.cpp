@@ -8,11 +8,12 @@ int main()
     double F;
 
     // TODO: [Step 1] Input a Celcius degree as a "double" type value
-
+    cout << "Input Celcius:\n";
+    cin >> C;
     // TODO: [Step 2] Convert it to a Fahrenheit degree using the Formula F = (9 / 5.0)* C + 32
-
+    F = (9 / 5.0)*C+32;
     cout << setprecision(2) << fixed;
     // TODO: [Step 3] Print the converted Fahrenheit
-
+    cout << "Farenheit: " << F << endl;
     return 0;
 }
